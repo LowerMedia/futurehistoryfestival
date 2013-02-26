@@ -93,24 +93,28 @@ if ( defined( 'WPSEO_VERSION' ) ) {
     </div>
     <?php get_sidebar('top'); ?>
 			    
-				<?php wp_nav_menu(array(
-				    'container'       => '',
-					'theme_location'  => 'header-menu')
-					); 
-				?>
-                
-            <?php if (has_nav_menu('sub-header-menu', 'responsive')) { ?>
-	            <?php wp_nav_menu(array(
-				    'container'       => '',
-					'menu_class'      => 'sub-header-menu',
-					'theme_location'  => 'sub-header-menu')
-					); 
-				?>
-            <?php } ?>
+				
  
     </div><!-- end of #header -->
     <?php responsive_header_end(); // after header hook ?>
     
+<div id="nav-wrapper">
+<?php wp_nav_menu(array(
+                    'container'       => '',
+                    'theme_location'  => 'header-menu')
+                    ); 
+                ?>
+                
+            <?php if (has_nav_menu('sub-header-menu', 'responsive')) { ?>
+                <?php wp_nav_menu(array(
+                    'container'       => '',
+                    'menu_class'      => 'sub-header-menu',
+                    'theme_location'  => 'sub-header-menu')
+                    ); 
+                ?>
+            <?php } ?>
+</div>
+
 	<?php responsive_wrapper(); // before wrapper ?>
     <div id="wrapper" class="clearfix">
     <?php responsive_in_wrapper(); // wrapper hook ?>
