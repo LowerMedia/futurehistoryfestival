@@ -87,9 +87,10 @@ if ( defined( 'WPSEO_VERSION' ) ) {
         </div><!-- end of #logo -->  
 
     <?php endif; // header image was removed (again) ?>
-    
+    <div id="slideshow-holder">
     <?php if ( function_exists( 'meteor_slideshow' ) ) { meteor_slideshow(); } ?>
-    
+    <?php echo hybrid_slideshow(); ?>
+    </div>
     <?php get_sidebar('top'); ?>
 			    
 				<?php wp_nav_menu(array(
