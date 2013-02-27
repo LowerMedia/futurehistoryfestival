@@ -50,6 +50,11 @@ if ( defined( 'WPSEO_VERSION' ) ) {
 
 <?php wp_head(); ?>
 <script type="text/javascript" src="/js/sticky.js"></script>
+<script>
+    $(window).load(function(){
+      $("#nav-wrapper").sticky({ topSpacing: 0 });
+    });
+  </script>
 </head>
 
 <body <?php body_class(); ?>>
