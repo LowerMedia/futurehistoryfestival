@@ -9,7 +9,7 @@
 add_action( 'init', 'create_post_type' );
 function create_post_type() 
   {
-  	register_post_type( 'fhf_band',
+  	register_post_type( 'band',
   		array(
   			'labels' => array(
   				'name' => __( 'Band' ),
@@ -29,7 +29,7 @@ function create_post_type()
   		'public' => true,
   		'has_archive' => true,
   		'supports'=> array('thumbnail','title','editor', 'custom-fields', 'excerpt', 'revisions'),
-  		'rewrite' => array('slug' => 'Bands'),
+  		'rewrite' => array('slug' => 'band'),
   		)
   	);
   }

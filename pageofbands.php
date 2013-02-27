@@ -10,7 +10,7 @@
     <div id="container">
       <div id="content">
 <?php 
-$type = 'fhf_band';
+$type = 'band';
 $args=array(
  'post_type' => $type,
  'post_status' => 'publish',
