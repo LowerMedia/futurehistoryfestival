@@ -40,12 +40,12 @@ body #container #wrapper {
 
 /* line 50, ../sass/screen.scss */
 #slideshow-holder {
-  width: 400px;
+  margin-bottom: 20px;
 }
 /* line 53, ../sass/screen.scss */
 #slideshow-holder #meteor-slideshow {
   border: white solid 1px;
   background: grey;
   box-shadow: 1px 1px 1px 1px;
-  margin: auto auto 20px;
+  margin: auto;
 }

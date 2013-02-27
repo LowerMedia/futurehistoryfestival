@@ -48,13 +48,13 @@ body {
 }
 
 #slideshow-holder {
-	width: 400px;
-	
+	margin-bottom: 20px;
+
 	#meteor-slideshow {
 		border: white solid 1px;
 		background: grey;
 		box-shadow: 1px 1px 1px 1px;
-		margin: auto auto 20px;
+		margin: auto;
 
 		#meteor-buttons {
 
