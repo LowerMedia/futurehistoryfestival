@@ -533,7 +533,7 @@ endif;
 			// except for Modernizr which enables HTML5 elements & feature detects.
 			wp_enqueue_script('modernizr', get_template_directory_uri() . '/js/responsive-modernizr.js', array('jquery'), '2.6.1', false);
 			wp_enqueue_script('sticky', get_template_directory_uri() . '/js/jquery.sticky.js', array('jquery'), '1.0.0', false);
-            wp_enqueue_script('responsive-scripts', get_template_directory_uri() . '/js/responsive-scripts.js', array('jquery'), '1.2.3', true);
+            wp_enqueue_script('responsive-scripts', get_stylesheet_directory_uri() . '/js/responsive-scripts.js', array('jquery'), '1.2.3', true);
 			wp_enqueue_script('responsive-plugins', get_template_directory_uri() . '/js/responsive-plugins.js', array('jquery'), '1.2.2', true);
         }
 
@@ -703,19 +703,19 @@ function theme_styles()
   // (First the unique name for the style (custom-style) then the src, 
   // then dependencies and ver no. and media type)
   wp_register_style( 'sass-screen', 
-    get_template_directory_uri() . '/stylesheets/screen.css', 
+    get_stylesheet_directory_uri() . '/stylesheets/screen.css', 
     array(), 
     '20120208', 
     'all' );
 
   wp_register_style( 'sass-print', 
-    get_template_directory_uri() . '/stylesheets/print.css', 
+    get_stylesheet_directory_uri() . '/stylesheets/print.css', 
     array(), 
     '20120208', 
     'all' );
 
   wp_register_style( 'sass-ie', 
-    get_template_directory_uri() . '/stylesheets/ie.css', 
+    get_stylesheet_directory_uri() . '/stylesheets/ie.css', 
     array(), 
     '20120208', 
     'all' );
