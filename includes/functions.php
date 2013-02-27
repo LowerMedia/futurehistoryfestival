@@ -695,7 +695,19 @@ endif;
 	
     add_action('widgets_init', 'responsive_widgets_init');
 
-
+add_action( 'init', 'create_post_type' );
+function create_post_type() {
+	register_post_type( 'fhf_band',
+		array(
+			'labels' => array(
+				'name' => __( 'Band' ),
+				'singular_name' => __( 'Band' )
+			),
+		'public' => true,
+		'has_archive' => true,
+		)
+	);
+}
 
 //function theme_styles()  
 //{ 
