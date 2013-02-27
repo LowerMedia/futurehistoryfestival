@@ -32,6 +32,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -------------------------------------------------------------- */
 @import url('../responsive/style.css');
 
+@import url('normalize.css');
+
 @import url('stylesheets/screen.css');
 	
 /* =Start From Here
