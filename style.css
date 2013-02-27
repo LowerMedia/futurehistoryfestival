@@ -38,7 +38,20 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -------------------------------------------------------------- */
 
 
+#header {
+    margin: auto;
+    width: 960px;
+}
 
+#nav-wrapper {
+    margin: auto;
+    width: 960px;
+}
+
+#wrapper {
+    margin: auto;
+    width: 960px;
+}
 
 
 
