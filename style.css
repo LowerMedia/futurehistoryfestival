@@ -56,6 +56,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #nav-inner-wrapper {
     margin: auto;
     width: 70%;
+    background-color: #585858;
+    background-image: -moz-linear-gradient(center top , #585858, #3D3D3D);
 }
 
 #wrapper {
