@@ -49,6 +49,7 @@ if ( defined( 'WPSEO_VERSION' ) ) {
 <?php wp_enqueue_style('responsive-style', get_stylesheet_uri(), false, '1.8.9');?>
 
 <?php wp_head(); ?>
+<script type="text/javascript" src="/js/sticky.js"></script>
 </head>
 
 <body <?php body_class(); ?>>
@@ -116,7 +117,7 @@ if ( defined( 'WPSEO_VERSION' ) ) {
         <?php } ?>  
         </div>
     </div>
-    
+
 	<?php responsive_wrapper(); // before wrapper ?>
     <div id="wrapper" class="clearfix">
     <?php responsive_in_wrapper(); // wrapper hook ?>
