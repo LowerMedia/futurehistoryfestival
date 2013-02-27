@@ -37,3 +37,14 @@ body #container #wrapper {
   width: 960px;
   padding: 0 25px;
 }
+
+/* line 50, ../sass/screen.scss */
+#slideshow-holder {
+  width: 400px;
+}
+/* line 53, ../sass/screen.scss */
+#slideshow-holder #meteor-slideshow {
+  border: white solid 1px;
+  background: grey;
+  border-shadow: 1px 1px 1px 1px;
+}
