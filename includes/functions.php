@@ -701,28 +701,28 @@ function theme_styles()
   // Register the style like this for a theme:  
   // (First the unique name for the style (custom-style) then the src, 
   // then dependencies and ver no. and media type)
-  wp_register_style( 'screen', 
+  wp_register_style( 'sass-screen', 
     get_template_directory_uri() . '/stylesheets/screen.css', 
     array(), 
     '20120208', 
     'all' );
 
-  wp_register_style( 'print', 
+  wp_register_style( 'sass-print', 
     get_template_directory_uri() . '/stylesheets/print.css', 
     array(), 
     '20120208', 
     'all' );
 
-  wp_register_style( 'ie', 
+  wp_register_style( 'sass-ie', 
     get_template_directory_uri() . '/stylesheets/ie.css', 
     array(), 
     '20120208', 
     'all' );
 
   // enqueing:
-  wp_enqueue_style( 'ie.css' );
-  wp_enqueue_style( 'print.css' );
-  wp_enqueue_style( 'screen.css' );
+  wp_enqueue_style( 'sass-ie' );
+  wp_enqueue_style( 'sass-print' );
+  wp_enqueue_style( 'sass-screen' );
 }
 add_action('wp_enqueue_scripts', 'theme_styles');
 
