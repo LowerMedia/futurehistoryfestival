@@ -66,3 +66,37 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
+
+/* line 9, ../sass/screen.scss */
+#container {
+  padding: 0;
+  max-width: 100%;
+}
+
+/* line 14, ../sass/screen.scss */
+#header {
+  margin: auto;
+  width: 960px;
+  padding: 0 25px;
+}
+
+/* line 20, ../sass/screen.scss */
+#nav-wrapper {
+  margin: auto;
+  width: 100%;
+  background-color: #585858;
+  background-image: -moz-linear-gradient(center top, #585858, #3d3d3d);
+}
+
+/* line 27, ../sass/screen.scss */
+#nav-inner-wrapper {
+  margin: auto;
+  width: 960px;
+}
+
+/* line 32, ../sass/screen.scss */
+#wrapper {
+  margin: auto;
+  width: 960px;
+  padding: 0 25px;
+}
