@@ -67,35 +67,31 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 9, ../sass/screen.scss */
-#container {
+/* line 10, ../sass/screen.scss */
+body #container {
   padding: 0;
   max-width: 100%;
 }
-
 /* line 14, ../sass/screen.scss */
-#header {
+body #container #header {
   margin: auto;
   width: 960px;
   padding: 0 25px;
 }
-
 /* line 20, ../sass/screen.scss */
-#nav-wrapper {
+body #container #nav-wrapper {
   margin: auto;
   width: 100%;
   background-color: #585858;
   background-image: -moz-linear-gradient(center top, #585858, #3d3d3d);
 }
-
-/* line 27, ../sass/screen.scss */
-#nav-inner-wrapper {
+/* line 26, ../sass/screen.scss */
+body #container #nav-wrapper #nav-inner-wrapper {
   margin: auto;
   width: 960px;
 }
-
 /* line 32, ../sass/screen.scss */
-#wrapper {
+body #container #wrapper {
   margin: auto;
   width: 960px;
   padding: 0 25px;
