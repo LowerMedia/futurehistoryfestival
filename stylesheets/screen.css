@@ -2,17 +2,20 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/*@import "compass/reset";*/
-/* line 10, ../sass/screen.scss */
+/* line 8, ../sass/screen.scss */
 body #container {
   padding: 0;
   max-width: 100%;
 }
-/* line 14, ../sass/screen.scss */
+/* line 12, ../sass/screen.scss */
 body #container #header {
-  margin: auto;
-  width: 960px;
-  padding: 0 25px;
+  background: white;
+  padding: 1% 0;
+  -webkit-box-shadow: #000 5px 5px 10px 3px inset;
+  -moz-box-shadow: #000 10px 10px 10px 3px inset;
+  /* color, h-offset, v-offset, blur, spread */
+  box-shadow: #000 10px 10px 10px 3px inset;
+  /* inset is optional */
 }
 /* line 19, ../sass/screen.scss */
 body #container #header #logo {
