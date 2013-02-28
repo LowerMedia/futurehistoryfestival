@@ -1,6 +1,6 @@
 <?php
 
-/*
+/*############################################################################################
 #
 #   CREATE BAND POST TYPE
 #   //This function creates a custom post type of band
@@ -34,7 +34,7 @@ function create_post_type()
   	);
   }
 
-/*
+/*############################################################################################
 #
 #   ADD CUSTOM JS FILES/LIBRARIES(STICKY.JS)
 #   //This function adds custom javascript libraries and files
@@ -49,7 +49,7 @@ function lowermedia_add_theme_js()
   }  
 add_action( 'wp_enqueue_scripts', 'lowermedia_add_theme_js' ); 
 
-/*
+/*############################################################################################
 #
 #   ADD CUSTOM CSS FILES (SASS)
 #   //This function adds custom css and our compiled sass files (css)
@@ -67,4 +67,21 @@ function lowermedia_add_theme_css()
 add_action( 'wp_enqueue_scripts', 'lowermedia_add_theme_css' );  
 
 
+/*############################################################################################
+#
+#   REGISTER WDIGETS
+#   //This function registers home page widget 4
+*/
+function lowermedia_responsive_widgets_init() {
+    register_sidebar(array(
+                'name' => __('Home Widget 4', 'responsive'),
+                'description' => __('Area 9 - sidebar-home.php', 'responsive'),
+                'id' => 'home-widget-4',
+                'before_title' => '<div id="widget-title-four" class="widget-title-home"><h3>',
+                'after_title' => '</h3></div>',
+                'before_widget' => '<div id="%1$s" class="widget-wrapper %2$s">',
+                'after_widget' => '</div>'
+            ));
+}
+add_action('widgets_init', 'lowermedia_responsive_widgets_init');
 ?>
