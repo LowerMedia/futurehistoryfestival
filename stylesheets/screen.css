@@ -44,12 +44,29 @@ body #container #wrapper {
 #slideshow-holder #meteor-slideshow {
   border: white solid 1px;
   background: grey;
-  -webkit-box-shadow: #000 5px 5px 10px 3px inset;
-  -moz-box-shadow: #000 10px 10px 10px 3px inset;
-  /* color, h-offset, v-offset, blur, spread */
-  box-shadow: #000 10px 10px 10px 3px inset;
-  /* inset is optional */
   margin: auto;
   height: 300px;
   width: 500px;
+}
+
+/* line 68, ../sass/screen.scss */
+#meteor-slideshow:after {
+  left: auto;
+  right: 10px;
+  transform: rotate(3deg);
+}
+
+/* line 73, ../sass/screen.scss */
+#meteor-slideshow:before, #meteor-slideshow:after {
+  background: none repeat scroll 0 0 #777777;
+  bottom: 15px;
+  box-shadow: 0 15px 10px #777777;
+  content: "";
+  left: 10px;
+  max-width: 300px;
+  position: absolute;
+  top: 80%;
+  transform: rotate(-3deg);
+  width: 50%;
+  z-index: -1;
 }
