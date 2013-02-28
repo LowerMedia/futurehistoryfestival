@@ -11,45 +11,44 @@ body #container {
 body #container #header {
   background: white;
   padding: 1% 0;
-  -webkit-box-shadow: #000 5px 5px 10px 3px inset;
-  -moz-box-shadow: #000 10px 10px 10px 3px inset;
-  /* color, h-offset, v-offset, blur, spread */
-  box-shadow: #000 10px 10px 10px 3px inset;
-  /* inset is optional */
 }
-/* line 19, ../sass/screen.scss */
+/* line 17, ../sass/screen.scss */
 body #container #header #logo {
   width: 100%;
   text-align: center;
 }
-/* line 25, ../sass/screen.scss */
+/* line 23, ../sass/screen.scss */
 body #container #nav-wrapper {
   margin: auto;
   width: 100%;
   background-color: #585858;
   background-image: -moz-linear-gradient(center top, #585858, #3d3d3d);
 }
-/* line 31, ../sass/screen.scss */
+/* line 29, ../sass/screen.scss */
 body #container #nav-wrapper #nav-inner-wrapper {
   margin: auto;
   width: 960px;
 }
-/* line 37, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 body #container #wrapper {
   margin: auto;
   width: 960px;
   padding: 0 25px;
 }
 
-/* line 50, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 #slideshow-holder {
   margin-bottom: 20px;
 }
-/* line 53, ../sass/screen.scss */
+/* line 51, ../sass/screen.scss */
 #slideshow-holder #meteor-slideshow {
   border: white solid 1px;
   background: grey;
-  box-shadow: 1px 1px 1px 1px;
+  -webkit-box-shadow: #000 5px 5px 10px 3px inset;
+  -moz-box-shadow: #000 10px 10px 10px 3px inset;
+  /* color, h-offset, v-offset, blur, spread */
+  box-shadow: #000 10px 10px 10px 3px inset;
+  /* inset is optional */
   margin: auto;
   height: 300px;
   width: 500px;

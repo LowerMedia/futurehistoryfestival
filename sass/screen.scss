@@ -12,9 +12,7 @@ body {
 			    #header {
 			    	background:white;
 				    padding: 1% 0;
-				    -webkit-box-shadow: #000 5px 5px 10px 3px inset;
-				    -moz-box-shadow: #000 10px 10px 10px 3px inset; /* color, h-offset, v-offset, blur, spread */
-				    box-shadow: #000 10px 10px 10px 3px inset; /* inset is optional */
+				    
 
 				    #logo {
 				    	width:100%;
@@ -53,7 +51,9 @@ body {
 	#meteor-slideshow {
 		border: white solid 1px;
 		background: grey;
-		box-shadow: 1px 1px 1px 1px;
+		-webkit-box-shadow: #000 5px 5px 10px 3px inset;
+				    -moz-box-shadow: #000 10px 10px 10px 3px inset; /* color, h-offset, v-offset, blur, spread */
+				    box-shadow: #000 10px 10px 10px 3px inset; /* inset is optional */
 		margin: auto;
 		height: 300px;
 		width: 500px;
