@@ -64,7 +64,7 @@ if ( !defined('ABSPATH')) exit;
         <?php responsive_widgets_end(); // after widgets hook ?>
         </div><!-- end of .col-300 fit -->
 
-         <div class="grid col-960 fit">
+         <div class="grid col-940 fit">
         <?php responsive_widgets(); // above widgets hook ?>
             
             <?php if (!dynamic_sidebar('home-widget-4')) : ?>
