@@ -15,7 +15,7 @@ $args=array(
  'post_type' => $type,
  'post_status' => 'publish',
  'paged' => $paged,
- 'posts_per_page' => 2,
+ 'posts_per_page' => 10,
  'ignore_sticky_posts'=> 1
 );
 $temp = $wp_query; // assign ordinal query to temp variable for later use  
@@ -25,5 +25,4 @@ $wp_query = new WP_Query($args);
 <?php get_template_part( 'loop', 'index' );?>
   </div><!-- #content -->
 </div><!-- #container -->
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

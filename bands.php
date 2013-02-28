@@ -1,18 +1,8 @@
 <?php
-
-// Exit if accessed directly
-if ( !defined('ABSPATH')) exit;
-
 /**
- * Blog Template
+ * Template Name: Bands (full bands)
  *
-   Template Name: Bands (full bands)
- *
- * @file           bands.php
- * @package        Responsive 
- * @author         Pete Lower
- * @link           http://codex.wordpress.org/Templates
- * @since          available since Release 1.0
+ * 
  */
 ?>
 <?php get_header(); ?>
@@ -101,5 +91,4 @@ if ( !defined('ABSPATH')) exit;
       
         </div><!-- end of #content-blog -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
