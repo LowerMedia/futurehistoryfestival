@@ -49,24 +49,23 @@ body #container #wrapper {
   width: 500px;
 }
 
-/* line 68, ../sass/screen.scss */
+/*
 #meteor-slideshow:after {
-  left: auto;
-  right: 10px;
-  transform: rotate(3deg);
+    left: auto;
+    right: 10px;
+    transform: rotate(3deg);
 }
-
-/* line 73, ../sass/screen.scss */
 #meteor-slideshow:before, #meteor-slideshow:after {
-  background: none repeat scroll 0 0 #777777;
-  bottom: 15px;
-  box-shadow: 0 15px 10px #777777;
-  content: "";
-  left: 10px;
-  max-width: 300px;
-  position: absolute;
-  top: 80%;
-  transform: rotate(-3deg);
-  width: 50%;
-  z-index: -1;
+    background: none repeat scroll 0 0 #777777;
+    bottom: 15px;
+    box-shadow: 0 15px 10px #777777;
+    content: "";
+    left: 10px;
+    max-width: 300px;
+    position: absolute;
+    top: 80%;
+    transform: rotate(-3deg);
+    width: 50%;
+    z-index: -1;
 }
+*/
