@@ -9,7 +9,7 @@
 <?php get_header(); ?>
     <div id="container">
       <div id="content">
-<?php 
+<?php/* 
 $type = 'band';
 $args=array(
  'post_type' => $type,
@@ -22,7 +22,19 @@ $temp = $wp_query; // assign ordinal query to temp variable for later use
 $wp_query = null;
 $wp_query = new WP_Query($args); 
 ?>
-<?php get_template_part( 'loop', 'index' );?>
+<?php get_template_part( 'loop', 'index' );
+*/?>
+<?php
+$args = array( 'post_type' => 'band', 'posts_per_page' => 10 );
+$loop = new WP_Query( $args );
+while ( $loop->have_posts() ) : $loop->the_post();
+	the_title();
+	echo '<div class="entry-content">';
+	the_content();
+	echo '</div>';
+endwhile;
+?>
+
   </div><!-- #content -->
 </div><!-- #container -->
 <?php get_footer(); ?>
