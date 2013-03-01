@@ -117,4 +117,12 @@ function lowermedia_responsive_widgets_init() {
             ));
 }
 add_action('widgets_init', 'lowermedia_responsive_widgets_init');
+
+/*############################################################################################
+#
+#   ALLOW WIDGETS TO PROCESS SHORTCODES
+#   
+*/
+add_filter('widget_text', 'do_shortcode');
+
 ?>
