@@ -26,6 +26,19 @@ function create_post_type()
 	            'parent_item_colon' => __( 'Parent band' )
 	            //'menu_name' => default to 'name'
   			),
+  		/*'capability_type' => 'band',
+		'capabilities' => array(
+			'publish_posts' => 'publish_band',
+			'edit_posts' => 'edit_band',
+			'edit_others_posts' => 'edit_others_band',
+			'delete_posts' => 'delete_band',
+			'delete_others_posts' => 'delete_others_band',
+			'read_private_posts' => 'read_private_band',
+			'edit_post' => 'edit_band',
+			'delete_post' => 'delete_band',
+			'read_post' => 'read_band',
+			'edit_page' => 'edit_band',
+		),*/
   		'public' => true,
   		'has_archive' => true,
   		'supports'=> array('thumbnail','title','editor', 'custom-fields', 'excerpt', 'revisions'),
@@ -33,6 +46,26 @@ function create_post_type()
   		)
   	);
   }
+  
+/*############################################################################################
+#
+#   ADD CUSTOM JS FILES/LIBRARIES(STICKY.JS)
+#   //This function adds custom javascript libraries and files
+*/
+
+/*function lowermedia_role_set (){
+	global $wp_roles;
+
+	$role = get_role( 'editor' );
+	$role->add_cap( 'publish_band' );
+	$role->add_cap( 'edit_band' );
+	$role->add_cap( 'edit_others_band' );
+	$role->add_cap( 'delete_others_band' );
+	$role->add_cap( 'read_private_band' );
+	$role->add_cap( 'manage_band' );
+
+}
+add_action('init', 'lowermedia_role_set');*/
 
 /*############################################################################################
 #
