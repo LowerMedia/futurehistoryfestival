@@ -51,9 +51,9 @@ body #container #wrapper {
 
 /* line 68, ../sass/screen.scss */
 .meteor-slides p {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.6);
   bottom: 0;
-  color: #000;
+  color: #fff;
   left: 0;
   line-height: 20px;
   margin: 0;
