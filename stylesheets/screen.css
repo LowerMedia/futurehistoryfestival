@@ -50,6 +50,11 @@ body #container #wrapper {
 }
 
 /* line 68, ../sass/screen.scss */
+.textwidget .meteor-slides {
+  height: 160px !important;
+}
+
+/* line 72, ../sass/screen.scss */
 .meteor-slides p {
   background: rgba(0, 0, 0, 0.6);
   bottom: 0;
