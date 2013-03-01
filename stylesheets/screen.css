@@ -49,6 +49,20 @@ body #container #wrapper {
   width: 500px;
 }
 
+/* line 68, ../sass/screen.scss */
+.meteor-slides p {
+  background: rgba(0, 0, 0, 0.2);
+  bottom: 0;
+  color: #000;
+  left: 0;
+  line-height: 20px;
+  margin: 0;
+  padding: 2%;
+  position: absolute;
+  text-align: center;
+  width: 96%;
+}
+
 /*
 #meteor-slideshow:after {
     left: auto;
