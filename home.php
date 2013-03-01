@@ -73,7 +73,14 @@ if ( !defined('ABSPATH')) exit;
 		    <?php if ($options['cta_button'] == 0): ?>     
             <div class="call-to-action">
 
-            <?php $options = get_option('responsive_theme_options');
+
+            	<form action="https://www.paypal.com/cgi-bin/webscr" method="post"><input type="hidden" name="cmd" value="_s-xclick" />
+				<input type="hidden" name="hosted_button_id" value="H2UDE7BHKQBKQ" />
+				<input class="blue button" type="image" alt="PayPal - The safer, easier way to pay online!" name="submit" src="https://www.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" />
+				<img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" border="0" /></form>
+
+
+            <?php/* $options = get_option('responsive_theme_options');
 			// First let's check if headline was set
 			    if (!empty($options['cta_url']) && $options['cta_text']) {
 					echo '<a href="'.$options['cta_url'].'" class="blue button">'; 
@@ -85,7 +92,7 @@ if ( !defined('ABSPATH')) exit;
 					echo __('Call to Action','responsive');
 				    echo '</a>';
 				  }
-			?>  
+			*/?>  
             
             </div><!-- end of .call-to-action -->
             <?php endif; ?>         
