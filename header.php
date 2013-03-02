@@ -87,7 +87,7 @@ if ( defined( 'WPSEO_VERSION' ) ) {
     <?php if ( !get_header_image() ) : ?>
                 
         <div id="logo">
-            <span class="site-name"><a href="<?php echo home_url('/'); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home"><?php bloginfo('name'); ?></a></span>
+            <span class="site-name"><h1><a href="<?php echo home_url('/'); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home"><?php bloginfo('name'); ?></a></h1></span>
             <span class="site-description"><?php bloginfo('description'); ?></span>
         </div><!-- end of #logo -->  
 
