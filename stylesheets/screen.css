@@ -35,13 +35,14 @@ body #container #wrapper {
   margin: auto;
   width: 960px;
   padding: 0 25px;
+  z-index: -1;
 }
 
-/* line 49, ../sass/screen.scss */
+/* line 50, ../sass/screen.scss */
 #slideshow-holder {
   margin-bottom: 20px;
 }
-/* line 52, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 #slideshow-holder #meteor-slideshow {
   border: white solid 1px;
   background: grey;
@@ -50,12 +51,12 @@ body #container #wrapper {
   width: 500px;
 }
 
-/* line 69, ../sass/screen.scss */
+/* line 70, ../sass/screen.scss */
 .textwidget .meteor-slides {
   height: 160px !important;
 }
 
-/* line 73, ../sass/screen.scss */
+/* line 74, ../sass/screen.scss */
 .meteor-slides p {
   background: rgba(0, 0, 0, 0.6);
   bottom: 0;
