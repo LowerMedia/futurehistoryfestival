@@ -1,3 +1,3 @@
 jQuery(document).ready(function(){
-  jQuery("#nav-wrapper").sticky({ topSpacing: 20 });
+  jQuery("#nav-wrapper").sticky({ topSpacing: 28 });
 });
