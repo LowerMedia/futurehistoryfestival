@@ -49,11 +49,6 @@ if ( defined( 'WPSEO_VERSION' ) ) {
 <?php wp_enqueue_style('responsive-style', get_stylesheet_uri(), false, '1.8.9');?>
 
 <?php wp_head(); ?>
-<script type="text/javascript">
-    jQuery(document).load(function(){
-      $("#nav-inner-wrapper").sticky({ topSpacing: 0 });
-    });
-  </script>
 </head>
 
 <body <?php body_class(); ?>>
