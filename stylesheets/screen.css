@@ -23,24 +23,25 @@ body #container #nav-wrapper {
   width: 100%;
   background-color: #585858;
   background-image: -moz-linear-gradient(center top, #585858, #3d3d3d);
+  z-index: 999;
 }
-/* line 29, ../sass/screen.scss */
+/* line 30, ../sass/screen.scss */
 body #container #nav-wrapper #nav-inner-wrapper {
   margin: auto;
   width: 960px;
 }
-/* line 35, ../sass/screen.scss */
+/* line 36, ../sass/screen.scss */
 body #container #wrapper {
   margin: auto;
   width: 960px;
   padding: 0 25px;
 }
 
-/* line 48, ../sass/screen.scss */
+/* line 49, ../sass/screen.scss */
 #slideshow-holder {
   margin-bottom: 20px;
 }
-/* line 51, ../sass/screen.scss */
+/* line 52, ../sass/screen.scss */
 #slideshow-holder #meteor-slideshow {
   border: white solid 1px;
   background: grey;
@@ -49,12 +50,12 @@ body #container #wrapper {
   width: 500px;
 }
 
-/* line 68, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 .textwidget .meteor-slides {
   height: 160px !important;
 }
 
-/* line 72, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 .meteor-slides p {
   background: rgba(0, 0, 0, 0.6);
   bottom: 0;
