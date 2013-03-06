@@ -4,7 +4,7 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 6, ../sass/screen.scss */
 body {
-  background: url("http://subtlepatterns.com/patterns/black_thread.png") repeat scroll 0 0 transparent;
+  background: url("../images/black_thread.png") repeat scroll 0 0 transparent;
 }
 /* line 9, ../sass/screen.scss */
 body #container {
@@ -13,7 +13,7 @@ body #container {
 }
 /* line 13, ../sass/screen.scss */
 body #container #header {
-  background: url("http://subtlepatterns.com/patterns/bedge_grunge.png") repeat scroll 0 0 transparent;
+  background: url("../images/bedge_grunge.png") repeat scroll 0 0 transparent;
   padding: 1% 0;
 }
 /* line 18, ../sass/screen.scss */
