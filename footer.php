@@ -123,5 +123,10 @@ if ( !defined('ABSPATH')) exit;
 </div><!-- end #footer -->
 
 <?php wp_footer(); ?>
+<?php
+if ( function_exists( 'yoast_analytics' ) ) {
+     yoast_analytics();
+    }
+?>
 </body>
 </html>
