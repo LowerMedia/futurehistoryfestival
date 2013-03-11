@@ -49,7 +49,7 @@ body #container #nav-wrapper #nav-inner-wrapper {
 body #container #wrapper {
   margin: auto;
   width: 960px;
-  padding: 0 25px;
+  padding: 2% 25px;
   z-index: -1;
 }
 
