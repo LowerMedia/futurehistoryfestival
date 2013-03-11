@@ -40,13 +40,13 @@ body {
 				    background-image: -o-linear-gradient(top, #585858, #3D3D3D);
 				    #nav-inner-wrapper {
 					    margin: auto;
-					    width: 960px;
+					    width: 90%;
 					}
 				}
 
 				#wrapper {
 				    margin: auto;
-				    width: 960px;
+				    width: 90%;
 				    padding: 2% 25px;
 				    z-index: -1;
 				}
@@ -79,7 +79,6 @@ body {
 }
 
 .textwidget .meteor-slides {
-	height: 160px !important;
 }
 
 .meteor-slides p {

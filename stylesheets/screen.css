@@ -43,12 +43,12 @@ body #container #nav-wrapper {
 /* line 41, ../sass/screen.scss */
 body #container #nav-wrapper #nav-inner-wrapper {
   margin: auto;
-  width: 960px;
+  width: 90%;
 }
 /* line 47, ../sass/screen.scss */
 body #container #wrapper {
   margin: auto;
-  width: 960px;
+  width: 90%;
   padding: 2% 25px;
   z-index: -1;
 }
@@ -66,12 +66,7 @@ body #container #wrapper {
   width: 500px;
 }
 
-/* line 81, ../sass/screen.scss */
-.textwidget .meteor-slides {
-  height: 160px !important;
-}
-
-/* line 85, ../sass/screen.scss */
+/* line 84, ../sass/screen.scss */
 .meteor-slides p {
   background: rgba(0, 0, 0, 0.6);
   bottom: 0;
