@@ -3,25 +3,34 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 6, ../sass/screen.scss */
+h1, h2, h3 {
+  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbbbbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* line 10, ../sass/screen.scss */
 body {
   background: url("../images/black_thread.png") repeat scroll 0 0 transparent;
 }
-/* line 9, ../sass/screen.scss */
+/* line 13, ../sass/screen.scss */
 body #container {
   padding: 0;
   max-width: 100%;
 }
-/* line 13, ../sass/screen.scss */
+/* line 17, ../sass/screen.scss */
 body #container #header {
   background: url("../images/bedge_grunge.png") repeat scroll 0 0 transparent;
   padding: 1% 0;
 }
-/* line 18, ../sass/screen.scss */
+/* line 22, ../sass/screen.scss */
 body #container #header #logo {
   width: 100%;
   text-align: center;
 }
-/* line 24, ../sass/screen.scss */
+/* line 26, ../sass/screen.scss */
+body #container #header #logo a {
+  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbbbbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+}
+/* line 32, ../sass/screen.scss */
 body #container #nav-wrapper {
   margin: auto;
   width: 100%;
@@ -40,12 +49,12 @@ body #container #nav-wrapper {
   /* Opera 11.10+ */
   background-image: -o-linear-gradient(top, #585858, #3d3d3d);
 }
-/* line 41, ../sass/screen.scss */
+/* line 49, ../sass/screen.scss */
 body #container #nav-wrapper #nav-inner-wrapper {
   margin: auto;
   width: 90%;
 }
-/* line 47, ../sass/screen.scss */
+/* line 55, ../sass/screen.scss */
 body #container #wrapper {
   margin: auto;
   width: 90%;
@@ -53,20 +62,21 @@ body #container #wrapper {
   z-index: -1;
 }
 
-/* line 61, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 #slideshow-holder {
   margin-bottom: 20px;
 }
-/* line 64, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 #slideshow-holder #meteor-slideshow {
   border: white solid 1px;
   background: grey;
   margin: auto;
   height: 300px;
   width: 500px;
+  box-shadow: 1px 10px 10px 1px;
 }
 
-/* line 84, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 .meteor-slides p {
   background: rgba(0, 0, 0, 0.6);
   bottom: 0;
