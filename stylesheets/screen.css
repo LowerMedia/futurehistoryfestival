@@ -67,14 +67,13 @@ body #container #wrapper {
   margin: auto;
   width: 90%;
   padding: 2% 25px;
-  z-index: -1;
 }
 
-/* line 77, ../sass/screen.scss */
+/* line 76, ../sass/screen.scss */
 #slideshow-holder {
   margin-bottom: 20px;
 }
-/* line 80, ../sass/screen.scss */
+/* line 79, ../sass/screen.scss */
 #slideshow-holder #meteor-slideshow {
   border: white solid 1px;
   background: grey;
@@ -84,7 +83,7 @@ body #container #wrapper {
   box-shadow: 1px 10px 10px 1px;
 }
 
-/* line 101, ../sass/screen.scss */
+/* line 100, ../sass/screen.scss */
 .meteor-slides p {
   background: rgba(0, 0, 0, 0.6);
   bottom: 0;
