@@ -64,7 +64,7 @@ body #container #nav-wrapper #nav-inner-wrapper {
 }
 /* line 63, ../sass/screen.scss */
 body #container #wrapper {
-  margin: auto;
+  margin: 2% auto;
   width: 90%;
   padding: 2% 25px;
 }
