@@ -23,7 +23,7 @@
 	    $paged = get_query_var('page');
 	else 
 		$paged = 1;
-		query_posts("post_type=bands&paged=$paged"); 
+		query_posts("post_type=bands&paged=$paged&post_status=future,publish"); 
 ?>    
 <?php if (have_posts()) : ?>
 
