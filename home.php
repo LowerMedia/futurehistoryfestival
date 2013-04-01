@@ -107,7 +107,8 @@ if ( !defined('ABSPATH')) exit;
 					echo do_shortcode($options['featured_content']);
 		    // If not display dummy image for preview purposes
 			      } else {             
-                    echo '<img class="aligncenter" src="'.get_stylesheet_directory_uri().'/images/featured-image.png" width="440" height="300" alt="" />'; 
+                    #echo '<img class="aligncenter" src="'.get_stylesheet_directory_uri().'/images/featured-image.png" width="440" height="300" alt="" />'; 
+                    echo '<img class="aligncenter" src="http://lowermedia.net/futurehistoryfestival/wp-content/blog.dir/sites/7/2013/03/FHF-PromoFlyer-Front_DRAFT3.jpg" width="440" height="300" alt="" />'; 
  				  }
 			?> 
                                    
