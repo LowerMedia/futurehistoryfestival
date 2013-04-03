@@ -64,7 +64,7 @@ if ( !defined('ABSPATH')) exit;
         <?php responsive_widgets_end(); // after widgets hook ?>
         </div><!-- end of .col-300 fit -->
 
-         <div class="grid col-940 fit">
+         <div class="grid col-300 fit">
         <?php responsive_widgets(); // above widgets hook ?>
             
             <?php if (!dynamic_sidebar('home-widget-4')) : ?>
@@ -78,4 +78,20 @@ if ( !defined('ABSPATH')) exit;
             
         <?php responsive_widgets_end(); // after widgets hook ?>
         </div><!-- end of .col-300 fit -->
+
+         <div class="grid col-300 fit">
+        <?php responsive_widgets(); // above widgets hook ?>
+            
+            <?php if (!dynamic_sidebar('home-widget-5')) : ?>
+            <div class="widget-wrapper">
+            
+                <div class="widget-title-home"><h3><?php _e('Home Widget 5', 'responsive'); ?></h3></div>
+                <div class="textwidget"><?php _e('This is your fourth home widget box. To edit please go to Appearance > Widgets and choose 8th widget from the top in area 8 called Home Widget 3. Title is also manageable from widgets as well.','responsive'); ?></div>
+        
+            </div><!-- end of .widget-wrapper -->
+            <?php endif; //end of home-widget-3 ?>
+            
+        <?php responsive_widgets_end(); // after widgets hook ?>
+        </div><!-- end of .col-300 fit -->
+
     </div><!-- end of #widgets -->

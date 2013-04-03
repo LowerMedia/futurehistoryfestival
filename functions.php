@@ -117,6 +117,16 @@ function lowermedia_responsive_widgets_init() {
                 'before_widget' => '<div id="%1$s" class="widget-wrapper %2$s">',
                 'after_widget' => '</div>'
             ));
+
+    register_sidebar(array(
+                'name' => __('Home Widget 5', 'responsive'),
+                'description' => __('Area 9 - sidebar-home.php', 'responsive'),
+                'id' => 'home-widget-5',
+                'before_title' => '<div id="widget-title-four" class="widget-title-home"><h3>',
+                'after_title' => '</h3></div>',
+                'before_widget' => '<div id="%1$s" class="widget-wrapper %2$s">',
+                'after_widget' => '</div>'
+            ));
 }
 add_action('widgets_init', 'lowermedia_responsive_widgets_init');
 
