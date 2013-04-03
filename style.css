@@ -36,7 +36,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -------------------------------------------------------------- */
 
 
-
+.widget-title, .widget-title-home h3 {
+    text-align:center;
+}
 
 
 
