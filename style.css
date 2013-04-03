@@ -52,7 +52,9 @@ body.page-id-9 #content-blog p {
     text-align: justify;
 }
 
-
+#meteor-slideshowband-slider, #meteor-slideshowdj-slider {
+    margin:auto;
+}
 
 
 /* Media Print
