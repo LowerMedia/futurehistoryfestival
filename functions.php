@@ -110,7 +110,7 @@ add_action( 'wp_enqueue_scripts', 'lowermedia_add_theme_css' );
 function lowermedia_responsive_widgets_init() {
     register_sidebar(array(
                 'name' => __('Home Widget 4', 'responsive'),
-                'description' => __('Area 9 - sidebar-home.php', 'responsive'),
+                'description' => __('Area 10 - sidebar-home.php', 'responsive'),
                 'id' => 'home-widget-4',
                 'before_title' => '<div id="widget-title-four" class="widget-title-home"><h3>',
                 'after_title' => '</h3></div>',
@@ -120,9 +120,19 @@ function lowermedia_responsive_widgets_init() {
 
     register_sidebar(array(
                 'name' => __('Home Widget 5', 'responsive'),
-                'description' => __('Area 9 - sidebar-home.php', 'responsive'),
+                'description' => __('Area 11 - sidebar-home.php', 'responsive'),
                 'id' => 'home-widget-5',
-                'before_title' => '<div id="widget-title-four" class="widget-title-home"><h3>',
+                'before_title' => '<div id="widget-title-five" class="widget-title-home"><h3>',
+                'after_title' => '</h3></div>',
+                'before_widget' => '<div id="%1$s" class="widget-wrapper %2$s">',
+                'after_widget' => '</div>'
+            ));
+
+    register_sidebar(array(
+                'name' => __('Home Widget 6', 'responsive'),
+                'description' => __('Area 12 - sidebar-home.php', 'responsive'),
+                'id' => 'home-widget-6',
+                'before_title' => '<div id="widget-title-six" class="widget-title-home"><h3>',
                 'after_title' => '</h3></div>',
                 'before_widget' => '<div id="%1$s" class="widget-wrapper %2$s">',
                 'after_widget' => '</div>'
