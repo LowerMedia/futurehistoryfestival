@@ -7,6 +7,15 @@ h1, h2, h3 {
 	text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #C9C9C9, 0 3px 0 #BBBBBB, 0 4px 0 #B9B9B9, 0 5px 0 #AAAAAA, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
 }
 
+.site-name a {
+color: green;
+}
+
+
+body #container #header #logo .site-description {
+	margin:30px 0;
+}
+
 body {
 	background:url("../images/black_thread.png") repeat scroll 0 0 transparent;
 	
@@ -18,6 +27,7 @@ body {
 			    	background:url("http://lowermedia.net/futurehistoryfestival/wp-content/blog.dir/sites/7/2013/04/Background_1.jpg") repeat scroll 0 0 transparent;
 			    	//background:url("../images/bedge_grunge.png") repeat scroll 0 0 transparent;
 				    padding: 1% 0;
+				    background-size:800px;
 
 
 				    #logo {
