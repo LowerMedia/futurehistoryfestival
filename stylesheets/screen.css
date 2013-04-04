@@ -18,15 +18,15 @@ body #container {
 }
 /* line 17, ../sass/screen.scss */
 body #container #header {
-  background: url("../images/bedge_grunge.png") repeat scroll 0 0 transparent;
+  background: url("http://lowermedia.net/futurehistoryfestival/wp-content/blog.dir/sites/7/2013/04/Background_1.jpg") repeat scroll 0 0 transparent;
   padding: 1% 0;
 }
-/* line 22, ../sass/screen.scss */
+/* line 23, ../sass/screen.scss */
 body #container #header #logo {
   width: 100%;
   text-align: center;
 }
-/* line 26, ../sass/screen.scss */
+/* line 27, ../sass/screen.scss */
 body #container #header #logo .site-description {
   color: black;
   display: block;
@@ -34,11 +34,11 @@ body #container #header #logo .site-description {
   font-size: 2.875em;
   margin: 10px 0;
 }
-/* line 34, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 body #container #header #logo a {
   text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbbbbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
 }
-/* line 40, ../sass/screen.scss */
+/* line 41, ../sass/screen.scss */
 body #container #nav-wrapper {
   margin: auto;
   width: 100%;
@@ -57,23 +57,23 @@ body #container #nav-wrapper {
   /* Opera 11.10+ */
   background-image: -o-linear-gradient(top, #585858, #3d3d3d);
 }
-/* line 57, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 body #container #nav-wrapper #nav-inner-wrapper {
   margin: auto;
   width: 90%;
 }
-/* line 63, ../sass/screen.scss */
+/* line 64, ../sass/screen.scss */
 body #container #wrapper {
   margin: 2% auto;
   width: 90%;
   padding: 2% 25px;
 }
 
-/* line 76, ../sass/screen.scss */
+/* line 77, ../sass/screen.scss */
 #slideshow-holder {
   margin-bottom: 20px;
 }
-/* line 79, ../sass/screen.scss */
+/* line 80, ../sass/screen.scss */
 #slideshow-holder #meteor-slideshow {
   border: white solid 1px;
   background: grey;
@@ -83,7 +83,7 @@ body #container #wrapper {
   box-shadow: 1px 10px 10px 1px;
 }
 
-/* line 100, ../sass/screen.scss */
+/* line 101, ../sass/screen.scss */
 .meteor-slides p {
   background: rgba(0, 0, 0, 0.6);
   bottom: 0;
