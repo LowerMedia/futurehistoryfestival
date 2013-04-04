@@ -28,7 +28,7 @@ body #container #header #logo {
 }
 /* line 27, ../sass/screen.scss */
 body #container #header #logo .site-description {
-  color: black;
+  color: white;
   display: block;
   font-family: "Orbitron",arial,sans-serif;
   font-size: 2.875em;
