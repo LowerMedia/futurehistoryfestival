@@ -129,18 +129,22 @@ body {
 //  $degree = degree of rotation
 //  $id_equiv = ie degree equiv can accept one of four values: 0, 1, 2, or 3 which will rotate the element 0, 90, 180 or 270 degrees 
 //
-@mixin lowermedia_rotate ($degree, $ie_equiv){
+@mixin lowermedia_rotate($degree, $ie_equiv) {
+
+	$degree: -90;
+	$ie_equiv: 3;
+
 	/* Safari */
-	-webkit-transform: rotate($degree+"deg");
+	-webkit-transform: rotate(#{$degree}deg);
 
 	/* Firefox */
-	-moz-transform: rotate($degree+"deg");
+	-moz-transform: rotate(#{$degree}deg);
 
 	/* IE */
-	-ms-transform: rotate($degree+"deg");
+	-ms-transform: rotate(#{$degree}deg);
 
 	/* Opera */
-	-o-transform: rotate($degree+"deg");
+	-o-transform: rotate(#{$degree}deg);
 
 	/* Internet Explorer */
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=$ie_equiv);
