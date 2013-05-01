@@ -149,86 +149,133 @@ body #container #wrapper {
 /* line 180, ../sass/screen.scss */
 #fhf-line-up-wrapper .category-holder #bands-category-name-holder {
   float: left;
-  width: 15%;
-  margin-top: 0%;
-  margin-left: 4%;
+  padding: 3%;
 }
-/* line 187, ../sass/screen.scss */
+/* line 185, ../sass/screen.scss */
 #fhf-line-up-wrapper .category-holder #bands-category-items-holder {
   float: left;
   width: 70%;
 }
-/* line 192, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 #fhf-line-up-wrapper .category-holder #djs-category-name-holder {
   float: right;
-  width: 10%;
-  margin-right: 5%;
+  padding: 3%;
 }
-/* line 198, ../sass/screen.scss */
+/* line 195, ../sass/screen.scss */
 #fhf-line-up-wrapper .category-holder #djs-category-items-holder {
   float: right;
   width: 70%;
 }
-/* line 203, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 #fhf-line-up-wrapper .category-holder #artists-category-name-holder {
   float: left;
-  width: 20%;
+  width: 18%;
 }
-/* line 208, ../sass/screen.scss */
+/* line 205, ../sass/screen.scss */
 #fhf-line-up-wrapper .category-holder #artists-category-items-holder {
   float: left;
   width: 60%;
-  margin-left: -5%;
+  margin-left: -1%;
 }
-/* line 214, ../sass/screen.scss */
+/* line 211, ../sass/screen.scss */
 #fhf-line-up-wrapper .category-holder #sponsors-category-name-holder {
   float: right;
-  width: 20%;
+  width: 19%;
 }
-/* line 219, ../sass/screen.scss */
+/* line 216, ../sass/screen.scss */
 #fhf-line-up-wrapper .category-holder #sponsors-category-items-holder {
   float: right;
   width: 60%;
 }
-/* line 225, ../sass/screen.scss */
+/* line 222, ../sass/screen.scss */
 #fhf-line-up-wrapper #bands-category-holder {
   color: lightblue;
-  height: 140px;
 }
-/* line 229, ../sass/screen.scss */
+/* line 225, ../sass/screen.scss */
 #fhf-line-up-wrapper #bands-category-holder .category-item {
   float: left;
 }
-/* line 232, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 #fhf-line-up-wrapper #djs-category-holder {
   color: orange;
-  height: 140px;
 }
-/* line 236, ../sass/screen.scss */
+/* line 232, ../sass/screen.scss */
 #fhf-line-up-wrapper #djs-category-holder .category-item {
   float: right;
 }
-/* line 239, ../sass/screen.scss */
+/* line 235, ../sass/screen.scss */
 #fhf-line-up-wrapper #artists-category-holder {
   color: lime;
-  height: 70px;
 }
-/* line 243, ../sass/screen.scss */
+/* line 238, ../sass/screen.scss */
 #fhf-line-up-wrapper #artists-category-holder .category-item {
   float: left;
 }
-/* line 246, ../sass/screen.scss */
+/* line 241, ../sass/screen.scss */
 #fhf-line-up-wrapper #sponsors-category-holder {
   color: yellow;
-  height: 70px;
 }
-/* line 250, ../sass/screen.scss */
+/* line 244, ../sass/screen.scss */
 #fhf-line-up-wrapper #sponsors-category-holder .category-item {
   float: right;
 }
-/* line 253, ../sass/screen.scss */
+/* line 247, ../sass/screen.scss */
 #fhf-line-up-wrapper .category-item {
   display: inline;
+}
+@media only screen and (max-width: 320px) {
+  /* line 250, ../sass/screen.scss */
+  #fhf-line-up-wrapper #bands-category-holder {
+    height: 250px;
+  }
+  /* line 254, ../sass/screen.scss */
+  #fhf-line-up-wrapper #djs-category-holder {
+    height: 250px;
+  }
+  /* line 258, ../sass/screen.scss */
+  #fhf-line-up-wrapper #artists-category-holder {
+    height: 170px;
+  }
+  /* line 262, ../sass/screen.scss */
+  #fhf-line-up-wrapper #sponsors-category-holder {
+    height: 170px;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 1023px) {
+  /* line 268, ../sass/screen.scss */
+  #fhf-line-up-wrapper #bands-category-holder {
+    height: 200px;
+  }
+  /* line 272, ../sass/screen.scss */
+  #fhf-line-up-wrapper #djs-category-holder {
+    height: 200px;
+  }
+  /* line 276, ../sass/screen.scss */
+  #fhf-line-up-wrapper #artists-category-holder {
+    height: 140px;
+  }
+  /* line 280, ../sass/screen.scss */
+  #fhf-line-up-wrapper #sponsors-category-holder {
+    height: 140px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  /* line 286, ../sass/screen.scss */
+  #fhf-line-up-wrapper #bands-category-holder {
+    height: 140px;
+  }
+  /* line 290, ../sass/screen.scss */
+  #fhf-line-up-wrapper #djs-category-holder {
+    height: 140px;
+  }
+  /* line 294, ../sass/screen.scss */
+  #fhf-line-up-wrapper #artists-category-holder {
+    height: 70px;
+  }
+  /* line 298, ../sass/screen.scss */
+  #fhf-line-up-wrapper #sponsors-category-holder {
+    height: 70px;
+  }
 }
 
 /*

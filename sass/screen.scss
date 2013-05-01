@@ -178,10 +178,8 @@ body {
 		}
 
 		#bands-category-name-holder {
-			float: left;  
-			width: 15%; 
-			margin-top:0%;
-			margin-left:4%;
+			float: left;
+			padding: 3%;
 		}
 
 		#bands-category-items-holder {
@@ -191,8 +189,7 @@ body {
 
 		#djs-category-name-holder {
 			float: right;
-			width: 10%; 
-			margin-right:5%;
+			padding: 3%;
 		}
 		
 		#djs-category-items-holder {
@@ -202,18 +199,18 @@ body {
 
 		#artists-category-name-holder {
 			float: left; 
-			width: 20%; 
+			width: 18%; 
 		}
 		
 		#artists-category-items-holder {
 			float: left; 
 			width: 60%;
-			margin-left:-5%;
+			margin-left:-1%;
 		}
 
 		#sponsors-category-name-holder {
 			float: right; 
-			width: 20%; 
+			width: 19%; 
 		}
 		
 		#sponsors-category-items-holder {
@@ -223,35 +220,88 @@ body {
 	}
 
 	#bands-category-holder {
-		color:lightblue;
-		height:140px;
+			color:lightblue;
 
-		.category-item{float:left;}
-	}
+			.category-item{float:left;}
+		}
+
 
 	#djs-category-holder {
 		color:orange;
-		height:140px;
 
 		.category-item{float:right;}
 	}
 
 	#artists-category-holder {
 		color: lime;
-		height:70px;
 
 		.category-item{float:left;}
 	}
 
 	#sponsors-category-holder {
 		color: yellow;
-		height:70px;
 
 		.category-item{float:right;}
 	}
 
 	.category-item{display:inline;}
+
+	@media only screen and (max-width: 320px) {
+		#bands-category-holder {
+			height:250px;
+		}
+
+		#djs-category-holder {
+			height:250px;
+		}
+
+		#artists-category-holder {
+			height:170px;
+		}
+
+		#sponsors-category-holder {
+			height:170px;
+		}
+	}
+
+	@media only screen and (min-width: 321px) and (max-width: 1023px) {
+		#bands-category-holder {
+			height:200px;
+		}
+
+		#djs-category-holder {
+			height:200px;
+		}
+
+		#artists-category-holder {
+			height:140px;
+		}
+
+		#sponsors-category-holder {
+			height:140px;
+		}
+	}
+
+	@media only screen and (min-width: 1024px) {
+		#bands-category-holder {
+			height:140px;
+		}
+
+		#djs-category-holder {
+			height:140px;
+		}
+
+		#artists-category-holder {
+			height:70px;
+		}
+
+		#sponsors-category-holder {
+			height:70px;
+		}
+	}
 }
+
+
 
 /*
 #meteor-slideshow:after {
