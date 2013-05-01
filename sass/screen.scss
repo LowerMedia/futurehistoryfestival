@@ -160,6 +160,93 @@ body {
 	margin:auto;
 	padding:5% 0;
 
+	.category-holder {
+		width: 100%; 
+		display: inline-block;
+
+		.category-name-holder{
+			display:inline-block;
+			@include lowermedia_rotate (-90, 3);
+			font-size: 200%;
+		}
+
+		.category-items-holder {
+			display:inline-block;
+			font-size: 110%;
+			margin-top: -2%;
+			height: 0px;
+		}
+
+		#bands-category-name-holder {
+			float: left;
+			padding: 3%;
+		}
+
+		#bands-category-items-holder {
+			float: left;
+			width: 70%;
+		}
+
+		#djs-category-name-holder {
+			float: right;
+			padding: 3%;
+		}
+		
+		#djs-category-items-holder {
+			float: right; 
+			width: 70%;
+		}
+
+		#artists-category-name-holder {
+			float: left; 
+			width: 18%; 
+		}
+		
+		#artists-category-items-holder {
+			float: left; 
+			width: 60%;
+			margin-left:-1%;
+		}
+
+		#sponsors-category-name-holder {
+			float: right; 
+			width: 19%; 
+		}
+		
+		#sponsors-category-items-holder {
+			float: right; 
+			width: 60%;
+		}
+	}
+
+	#bands-category-holder {
+			color:lightblue;
+
+			.category-item{float:left;}
+	}
+
+
+	#djs-category-holder {
+		color:orange;
+
+		.category-item{float:right;}
+	}
+
+	#artists-category-holder {
+		color: lime;
+
+		.category-item{float:left;}
+	}
+
+	#sponsors-category-holder {
+		color: yellow;
+
+		.category-item{float:right;}
+	}
+
+	.category-item{display:inline;}
+
+
 	@media only screen and (max-width: 320px) {
 		#bands-category-holder {
 			height:250px;
@@ -246,92 +333,6 @@ body {
 			height:70px;
 		}
 	}
-
-	.category-holder {
-		width: 100%; 
-		display: inline-block;
-
-		.category-name-holder{
-			display:inline-block;
-			@include lowermedia_rotate (-90, 3);
-			font-size: 200%;
-		}
-
-		.category-items-holder {
-			display:inline-block;
-			font-size: 110%;
-			margin-top: -2%;
-			height: 0px;
-		}
-
-		#bands-category-name-holder {
-			float: left;
-			padding: 3%;
-		}
-
-		#bands-category-items-holder {
-			float: left;
-			width: 70%;
-		}
-
-		#djs-category-name-holder {
-			float: right;
-			padding: 3%;
-		}
-		
-		#djs-category-items-holder {
-			float: right; 
-			width: 70%;
-		}
-
-		#artists-category-name-holder {
-			float: left; 
-			width: 18%; 
-		}
-		
-		#artists-category-items-holder {
-			float: left; 
-			width: 60%;
-			margin-left:-1%;
-		}
-
-		#sponsors-category-name-holder {
-			float: right; 
-			width: 19%; 
-		}
-		
-		#sponsors-category-items-holder {
-			float: right; 
-			width: 60%;
-		}
-	}
-
-	#bands-category-holder {
-			color:lightblue;
-
-			.category-item{float:left;}
-	}
-
-
-	#djs-category-holder {
-		color:orange;
-
-		.category-item{float:right;}
-	}
-
-	#artists-category-holder {
-		color: lime;
-
-		.category-item{float:left;}
-	}
-
-	#sponsors-category-holder {
-		color: yellow;
-
-		.category-item{float:right;}
-	}
-
-	.category-item{display:inline;}
 }
 
 /*
