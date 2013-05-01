@@ -133,16 +133,16 @@ body #container #wrapper {
   display: inline-block;
 }
 /* line 148, ../sass/screen.scss */
-#fhf-line-up-wrapper .category-holder #band-category-name-holder {
+#fhf-line-up-wrapper .category-holder #bands-category-name-holder {
   float: left;
   transform: rotate(-90deg);
-  width: 10%;
+  width: 15%;
   font-size: 200%;
-  margin-top: 2%;
+  margin-top: 0%;
   margin-left: 4%;
 }
 /* line 152, ../sass/screen.scss */
-#fhf-line-up-wrapper .category-holder #band-category-items-holder {
+#fhf-line-up-wrapper .category-holder #bands-category-items-holder {
   float: left;
   font-size: 110%;
   height: 0px;
