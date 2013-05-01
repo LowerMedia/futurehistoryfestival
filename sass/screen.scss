@@ -122,6 +122,83 @@ body {
 }
 
 
+/*Home Page Bottom Widget*/
+
+#fhf-line-up-wrapper {
+	width:76%;
+	border:1px solid grey;
+	text-transform: uppercase;
+	font-weight:bold;
+	background:black;
+	margin:auto;
+	padding:5% 0;
+
+	.category-holder {
+		width: 100%; 
+		display: inline-block;
+
+		.category-name-holder{
+			display:inline-block;
+		}
+
+		.category-items-holder {
+			display:inline-block;
+		}
+
+		#band-category-name-holder {
+			float: left;  transform: rotate(-90deg); width: 10%; font-size: 200%; margin-top:2%;margin-left:4%;
+		}
+
+		#band-category-items-holder {
+			float: left; font-size: 110%; height: 0px; margin-top: -2%; width: 70%;
+		}
+
+		#djs-category-name-holder {
+			float: right;width: 10%; font-size: 200%; transform: rotate(-90deg);margin-right:5%;
+		}
+		
+		#djs-category-items-holder {
+			float: right; font-size: 110%; height: 0px; margin-top: -2%; width: 70%;
+		}
+
+		#artists-category-name-holder {
+			float: left; transform: rotate(-90deg); width: 20%; font-size: 200%; text-transform: uppercase;
+		}
+		
+		#artists-category-items-holder {
+			float: left; font-size: 110%; height: 0px; margin-top: -2%; width: 60%;margin-left:-5%;
+		}
+
+		#sponsors-category-name-holder {
+			float: right; transform: rotate(-90deg); width: 20%; font-size: 200%; text-transform: uppercase;
+		}
+		
+		#sponsors-category-items-holder {
+			float: right; font-size: 110%; height: 0px; margin-top: -2%; width: 60%;
+		}
+	}
+
+	#bands-category-holder {
+		color:lightblue;
+		height:140px;
+	}
+
+	#djs-category-holder {
+		color:orange;
+		height:140px;
+	}
+
+	#artists-category-holder {
+		color: lime;
+		height:70px;
+	}
+
+	#sponsors-category-holder {
+		color: yellow;
+		height:70px;
+	}
+}
+
 /*
 #meteor-slideshow:after {
     left: auto;

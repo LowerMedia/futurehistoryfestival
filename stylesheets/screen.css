@@ -108,6 +108,117 @@ body #container #wrapper {
   width: 96%;
 }
 
+/*Home Page Bottom Widget*/
+/* line 127, ../sass/screen.scss */
+#fhf-line-up-wrapper {
+  width: 76%;
+  border: 1px solid grey;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: black;
+  margin: auto;
+  padding: 5% 0;
+}
+/* line 136, ../sass/screen.scss */
+#fhf-line-up-wrapper .category-holder {
+  width: 100%;
+  display: inline-block;
+}
+/* line 140, ../sass/screen.scss */
+#fhf-line-up-wrapper .category-holder .category-name-holder {
+  display: inline-block;
+}
+/* line 144, ../sass/screen.scss */
+#fhf-line-up-wrapper .category-holder .category-items-holder {
+  display: inline-block;
+}
+/* line 148, ../sass/screen.scss */
+#fhf-line-up-wrapper .category-holder #band-category-name-holder {
+  float: left;
+  transform: rotate(-90deg);
+  width: 10%;
+  font-size: 200%;
+  margin-top: 2%;
+  margin-left: 4%;
+}
+/* line 152, ../sass/screen.scss */
+#fhf-line-up-wrapper .category-holder #band-category-items-holder {
+  float: left;
+  font-size: 110%;
+  height: 0px;
+  margin-top: -2%;
+  width: 70%;
+}
+/* line 156, ../sass/screen.scss */
+#fhf-line-up-wrapper .category-holder #djs-category-name-holder {
+  float: right;
+  width: 10%;
+  font-size: 200%;
+  transform: rotate(-90deg);
+  margin-right: 5%;
+}
+/* line 160, ../sass/screen.scss */
+#fhf-line-up-wrapper .category-holder #djs-category-items-holder {
+  float: right;
+  font-size: 110%;
+  height: 0px;
+  margin-top: -2%;
+  width: 70%;
+}
+/* line 164, ../sass/screen.scss */
+#fhf-line-up-wrapper .category-holder #artists-category-name-holder {
+  float: left;
+  transform: rotate(-90deg);
+  width: 20%;
+  font-size: 200%;
+  text-transform: uppercase;
+}
+/* line 168, ../sass/screen.scss */
+#fhf-line-up-wrapper .category-holder #artists-category-items-holder {
+  float: left;
+  font-size: 110%;
+  height: 0px;
+  margin-top: -2%;
+  width: 60%;
+  margin-left: -5%;
+}
+/* line 172, ../sass/screen.scss */
+#fhf-line-up-wrapper .category-holder #sponsors-category-name-holder {
+  float: right;
+  transform: rotate(-90deg);
+  width: 20%;
+  font-size: 200%;
+  text-transform: uppercase;
+}
+/* line 176, ../sass/screen.scss */
+#fhf-line-up-wrapper .category-holder #sponsors-category-items-holder {
+  float: right;
+  font-size: 110%;
+  height: 0px;
+  margin-top: -2%;
+  width: 60%;
+}
+/* line 181, ../sass/screen.scss */
+#fhf-line-up-wrapper #bands-category-holder {
+  color: lightblue;
+  height: 140px;
+}
+/* line 186, ../sass/screen.scss */
+#fhf-line-up-wrapper #djs-category-holder {
+  color: orange;
+  height: 140px;
+}
+/* line 191, ../sass/screen.scss */
+#fhf-line-up-wrapper #artists-category-holder {
+  color: lime;
+  height: 70px;
+}
+/* line 196, ../sass/screen.scss */
+#fhf-line-up-wrapper #sponsors-category-holder {
+  color: yellow;
+  height: 70px;
+}
+
 /*
 #meteor-slideshow:after {
     left: auto;
