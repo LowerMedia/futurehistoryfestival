@@ -124,6 +124,29 @@ body {
 
 /*Home Page Bottom Widget*/
 
+
+//	LowerMedia Rotate SASS Mixin
+//  $degree = degree of rotation
+//  $id_equiv = ie degree equiv can accept one of four values: 0, 1, 2, or 3 which will rotate the element 0, 90, 180 or 270 degrees 
+//
+@mixin lowermedia_rotate ($degree, $ie_equiv){
+	/* Safari */
+	-webkit-transform: rotate($degree."deg");
+
+	/* Firefox */
+	-moz-transform: rotate($degree."deg");
+
+	/* IE */
+	-ms-transform: rotate($degree."deg");
+
+	/* Opera */
+	-o-transform: rotate($degree."deg");
+
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=$ie_equiv);
+}
+
+
 #fhf-line-up-wrapper {
 	width:76%;
 	border:1px solid grey;
@@ -139,7 +162,7 @@ body {
 
 		.category-name-holder{
 			display:inline-block;
-			transform: rotate(-90deg);
+			include lowermedia_rotate (-90, 3);
 			font-size: 200%;
 		}
 
