@@ -226,7 +226,7 @@ body #container #wrapper {
 @media only screen and (max-width: 320px) {
   /* line 251, ../sass/screen.scss */
   #fhf-line-up-wrapper #bands-category-holder {
-    height: 250px;
+    height: 400px;
   }
   /* line 255, ../sass/screen.scss */
   #fhf-line-up-wrapper #djs-category-holder {
@@ -244,7 +244,7 @@ body #container #wrapper {
 @media only screen and (min-width: 321px) and (max-width: 700px) {
   /* line 270, ../sass/screen.scss */
   #fhf-line-up-wrapper #bands-category-holder {
-    height: 250px;
+    height: 400px;
   }
   /* line 273, ../sass/screen.scss */
   #fhf-line-up-wrapper #bands-category-holder #bands-category-name-holder {
