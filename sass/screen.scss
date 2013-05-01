@@ -131,16 +131,16 @@ body {
 //
 @mixin lowermedia_rotate ($degree, $ie_equiv){
 	/* Safari */
-	-webkit-transform: rotate($degree."deg");
+	-webkit-transform: rotate($degree+"deg");
 
 	/* Firefox */
-	-moz-transform: rotate($degree."deg");
+	-moz-transform: rotate($degree+"deg");
 
 	/* IE */
-	-ms-transform: rotate($degree."deg");
+	-ms-transform: rotate($degree+"deg");
 
 	/* Opera */
-	-o-transform: rotate($degree."deg");
+	-o-transform: rotate($degree+"deg");
 
 	/* Internet Explorer */
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=$ie_equiv);
@@ -162,7 +162,7 @@ body {
 
 		.category-name-holder{
 			display:inline-block;
-			include lowermedia_rotate (-90, 3);
+			@include lowermedia_rotate (-90, 3);
 			font-size: 200%;
 		}
 
