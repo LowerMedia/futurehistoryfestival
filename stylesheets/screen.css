@@ -228,87 +228,147 @@ body #container #wrapper {
   #fhf-line-up-wrapper #bands-category-holder {
     height: 400px;
   }
-  /* line 255, ../sass/screen.scss */
-  #fhf-line-up-wrapper #djs-category-holder {
-    height: 250px;
-  }
-  /* line 259, ../sass/screen.scss */
-  #fhf-line-up-wrapper #artists-category-holder {
-    height: 170px;
-  }
-  /* line 263, ../sass/screen.scss */
-  #fhf-line-up-wrapper #sponsors-category-holder {
-    height: 170px;
-  }
-}
-@media only screen and (min-width: 321px) and (max-width: 700px) {
-  /* line 270, ../sass/screen.scss */
-  #fhf-line-up-wrapper #bands-category-holder {
-    height: 400px;
-  }
-  /* line 273, ../sass/screen.scss */
+  /* line 254, ../sass/screen.scss */
   #fhf-line-up-wrapper #bands-category-holder #bands-category-name-holder {
     float: left;
     padding: 10% 3%;
   }
-  /* line 278, ../sass/screen.scss */
+  /* line 259, ../sass/screen.scss */
   #fhf-line-up-wrapper #bands-category-holder #bands-category-items-holder {
     width: 60%;
   }
-  /* line 283, ../sass/screen.scss */
+  /* line 264, ../sass/screen.scss */
   #fhf-line-up-wrapper #djs-category-holder {
     height: 250px;
   }
-  /* line 286, ../sass/screen.scss */
+  /* line 267, ../sass/screen.scss */
+  #fhf-line-up-wrapper #djs-category-holder #djs-category-name-holder {
+    float: left;
+    padding: 10% 7%;
+  }
+  /* line 272, ../sass/screen.scss */
+  #fhf-line-up-wrapper #djs-category-holder #djs-category-items-holder {
+    float: left;
+  }
+  /* line 275, ../sass/screen.scss */
+  #fhf-line-up-wrapper #djs-category-holder #djs-category-items-holder div {
+    float: left;
+  }
+  /* line 279, ../sass/screen.scss */
+  #fhf-line-up-wrapper #artists-category-holder {
+    height: 170px;
+  }
+  /* line 282, ../sass/screen.scss */
+  #fhf-line-up-wrapper #artists-category-holder #artists-category-name-holder {
+    float: left;
+    padding: 10% 3%;
+  }
+  /* line 287, ../sass/screen.scss */
+  #fhf-line-up-wrapper #artists-category-holder #artists-category-items-holder {
+    width: 60%;
+  }
+  /* line 292, ../sass/screen.scss */
+  #fhf-line-up-wrapper #sponsors-category-holder {
+    height: 170px;
+  }
+  /* line 295, ../sass/screen.scss */
+  #fhf-line-up-wrapper #sponsors-category-holder #sponsors-category-name-holder {
+    float: left;
+    padding: 10% 7%;
+  }
+  /* line 300, ../sass/screen.scss */
+  #fhf-line-up-wrapper #sponsors-category-holder #sponsors-category-items-holder {
+    float: left;
+  }
+  /* line 303, ../sass/screen.scss */
+  #fhf-line-up-wrapper #sponsors-category-holder #sponsors-category-items-holder div {
+    float: left;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 700px) {
+  /* line 310, ../sass/screen.scss */
+  #fhf-line-up-wrapper #bands-category-holder {
+    height: 400px;
+  }
+  /* line 313, ../sass/screen.scss */
+  #fhf-line-up-wrapper #bands-category-holder #bands-category-name-holder {
+    float: left;
+    padding: 10% 3%;
+  }
+  /* line 318, ../sass/screen.scss */
+  #fhf-line-up-wrapper #bands-category-holder #bands-category-items-holder {
+    width: 60%;
+  }
+  /* line 323, ../sass/screen.scss */
+  #fhf-line-up-wrapper #djs-category-holder {
+    height: 250px;
+  }
+  /* line 326, ../sass/screen.scss */
   #fhf-line-up-wrapper #djs-category-holder #djs-category-name-holder {
     float: left;
     padding: 10% 3%;
   }
-  /* line 291, ../sass/screen.scss */
+  /* line 331, ../sass/screen.scss */
   #fhf-line-up-wrapper #djs-category-holder #djs-category-items-holder {
     float: left;
   }
-  /* line 296, ../sass/screen.scss */
+  /* line 336, ../sass/screen.scss */
   #fhf-line-up-wrapper #artists-category-holder {
     height: 170px;
   }
-  /* line 300, ../sass/screen.scss */
+  /* line 340, ../sass/screen.scss */
   #fhf-line-up-wrapper #sponsors-category-holder {
     height: 170px;
   }
 }
 @media only screen and (min-width: 700px) and (max-width: 1023px) {
-  /* line 306, ../sass/screen.scss */
+  /* line 346, ../sass/screen.scss */
   #fhf-line-up-wrapper #bands-category-holder {
     height: 200px;
   }
-  /* line 310, ../sass/screen.scss */
+  /* line 350, ../sass/screen.scss */
   #fhf-line-up-wrapper #djs-category-holder {
     height: 200px;
   }
-  /* line 314, ../sass/screen.scss */
+  /* line 353, ../sass/screen.scss */
+  #fhf-line-up-wrapper #djs-category-holder #djs-category-items-holder {
+    float: right;
+  }
+  /* line 356, ../sass/screen.scss */
+  #fhf-line-up-wrapper #djs-category-holder #djs-category-items-holder div {
+    float: right;
+  }
+  /* line 360, ../sass/screen.scss */
   #fhf-line-up-wrapper #artists-category-holder {
     height: 140px;
   }
-  /* line 318, ../sass/screen.scss */
+  /* line 364, ../sass/screen.scss */
   #fhf-line-up-wrapper #sponsors-category-holder {
     height: 140px;
   }
+  /* line 367, ../sass/screen.scss */
+  #fhf-line-up-wrapper #sponsors-category-holder #sponsors-category-items-holder {
+    float: right;
+  }
+  /* line 370, ../sass/screen.scss */
+  #fhf-line-up-wrapper #sponsors-category-holder #sponsors-category-items-holder div {
+    float: right;
+  }
 }
 @media only screen and (min-width: 1024px) {
-  /* line 324, ../sass/screen.scss */
+  /* line 376, ../sass/screen.scss */
   #fhf-line-up-wrapper #bands-category-holder {
     height: 140px;
   }
-  /* line 328, ../sass/screen.scss */
+  /* line 380, ../sass/screen.scss */
   #fhf-line-up-wrapper #djs-category-holder {
     height: 140px;
   }
-  /* line 332, ../sass/screen.scss */
+  /* line 384, ../sass/screen.scss */
   #fhf-line-up-wrapper #artists-category-holder {
     height: 70px;
   }
-  /* line 336, ../sass/screen.scss */
+  /* line 388, ../sass/screen.scss */
   #fhf-line-up-wrapper #sponsors-category-holder {
     height: 70px;
   }

@@ -250,18 +250,58 @@ body {
 	@media only screen and (max-width: 320px) {
 		#bands-category-holder {
 			height:400px;
+
+			#bands-category-name-holder {
+				float: left;
+				padding: 10% 3%;
+			}
+
+			#bands-category-items-holder {
+				width: 60%;
+			}
 		}
 
 		#djs-category-holder {
 			height:250px;
+
+			#djs-category-name-holder {
+				float: left;
+				padding: 10% 7%;
+			}
+
+			#djs-category-items-holder {
+				float: left;
+
+				div {float:left;}
+			}
 		}
 
 		#artists-category-holder {
 			height:170px;
+
+			#artists-category-name-holder {
+				float: left;
+				padding: 10% 3%;
+			}
+
+			#artists-category-items-holder {
+				width: 60%;
+			}
 		}
 
 		#sponsors-category-holder {
 			height:170px;
+
+			#sponsors-category-name-holder {
+				float: left;
+				padding: 10% 7%;
+			}
+
+			#sponsors-category-items-holder {
+				float: left;
+
+				div {float:left;}
+			}
 		}
 	}
 	
@@ -309,6 +349,12 @@ body {
 
 		#djs-category-holder {
 			height:200px;
+
+			#djs-category-items-holder {
+				float: right;
+
+				div {float:right;}
+			}
 		}
 
 		#artists-category-holder {
@@ -317,6 +363,12 @@ body {
 
 		#sponsors-category-holder {
 			height:140px;
+
+			#sponsors-category-items-holder {
+				float: right;
+
+				div {float:right;}
+			}
 		}
 	}
 
