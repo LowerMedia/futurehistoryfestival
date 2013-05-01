@@ -160,6 +160,93 @@ body {
 	margin:auto;
 	padding:5% 0;
 
+	@media only screen and (max-width: 320px) {
+		#bands-category-holder {
+			height:250px;
+		}
+
+		#djs-category-holder {
+			height:250px;
+		}
+
+		#artists-category-holder {
+			height:170px;
+		}
+
+		#sponsors-category-holder {
+			height:170px;
+		}
+	}
+	
+	@media only screen and (min-width: 321px) and (max-width: 700px) {
+
+		#bands-category-holder {
+			height:250px;
+
+			#bands-category-name-holder {
+				float: left;
+				padding: 10% 3%;
+			}
+		}
+
+		#djs-category-holder {
+			height:250px;
+
+			#djs-category-name-holder {
+				float: left;
+				padding: 10% 3%;
+			}
+
+			#djs-category-items-holder {
+				float: left;
+			}
+		}
+
+		#artists-category-holder {
+			height:170px;
+		}
+
+		#sponsors-category-holder {
+			height:170px;
+		}
+	}
+
+	@media only screen and (min-width: 700px) and (max-width: 1023px) {
+		#bands-category-holder {
+			height:200px;
+		}
+
+		#djs-category-holder {
+			height:200px;
+		}
+
+		#artists-category-holder {
+			height:140px;
+		}
+
+		#sponsors-category-holder {
+			height:140px;
+		}
+	}
+
+	@media only screen and (min-width: 1024px) {
+		#bands-category-holder {
+			height:140px;
+		}
+
+		#djs-category-holder {
+			height:140px;
+		}
+
+		#artists-category-holder {
+			height:70px;
+		}
+
+		#sponsors-category-holder {
+			height:70px;
+		}
+	}
+
 	.category-holder {
 		width: 100%; 
 		display: inline-block;
@@ -223,7 +310,7 @@ body {
 			color:lightblue;
 
 			.category-item{float:left;}
-		}
+	}
 
 
 	#djs-category-holder {
@@ -245,63 +332,7 @@ body {
 	}
 
 	.category-item{display:inline;}
-
-	@media only screen and (max-width: 320px) {
-		#bands-category-holder {
-			height:250px;
-		}
-
-		#djs-category-holder {
-			height:250px;
-		}
-
-		#artists-category-holder {
-			height:170px;
-		}
-
-		#sponsors-category-holder {
-			height:170px;
-		}
-	}
-
-	@media only screen and (min-width: 321px) and (max-width: 1023px) {
-		#bands-category-holder {
-			height:200px;
-		}
-
-		#djs-category-holder {
-			height:200px;
-		}
-
-		#artists-category-holder {
-			height:140px;
-		}
-
-		#sponsors-category-holder {
-			height:140px;
-		}
-	}
-
-	@media only screen and (min-width: 1024px) {
-		#bands-category-holder {
-			height:140px;
-		}
-
-		#djs-category-holder {
-			height:140px;
-		}
-
-		#artists-category-holder {
-			height:70px;
-		}
-
-		#sponsors-category-holder {
-			height:70px;
-		}
-	}
 }
-
-
 
 /*
 #meteor-slideshow:after {
@@ -323,4 +354,3 @@ body {
     z-index: -1;
 }
 */
-
