@@ -70,7 +70,7 @@ if ( !defined('ABSPATH')) exit;
 			?>
             
             <?php $options = get_option('responsive_theme_options'); ?>
-		    <?php if ($options['cta_button'] == 0): ?>     
+		    <?php //if ($options['cta_button'] == 0): ?>     
             <div class="call-to-action">
 
 
@@ -113,7 +113,7 @@ if ( !defined('ABSPATH')) exit;
 			*/?>  
             
             </div><!-- end of .call-to-action -->
-            <?php endif; ?>         
+            <?php //endif; ?>         
             
         </div><!-- end of .col-460 -->
 
