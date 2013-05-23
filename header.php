@@ -28,7 +28,7 @@ if ( !defined('ABSPATH')) exit;
 
 <meta charset="<?php bloginfo('charset'); ?>" />
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-
+<meta name="msvalidate.01" content="4238BED7776165545AC6F78E8CF34492" />
 <title>
 <?php
 if ( defined( 'WPSEO_VERSION' ) ) {
