@@ -43,7 +43,7 @@ if ( !defined('ABSPATH')) exit;
 
 		<?php while (have_posts()) : the_post(); ?>
         
-            <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+            <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                 
                 <h1 class="post-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php printf(__('Permanent Link to %s', 'responsive'), the_title_attribute('echo=0')); ?>"><?php the_title(); ?></a></h1>
                 
@@ -74,7 +74,7 @@ if ( !defined('ABSPATH')) exit;
                 </div><!-- end of .post-data -->             
 
             <div class="post-edit"><?php edit_post_link(__('Edit', 'responsive')); ?></div>               
-            </div><!-- end of #post-<?php the_ID(); ?> -->
+            </article><!-- end of #post-<?php the_ID(); ?> -->
             
         <?php endwhile; ?> 
         
