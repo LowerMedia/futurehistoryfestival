@@ -32,7 +32,7 @@ if ( !defined('ABSPATH')) exit;
 		<?php echo responsive_breadcrumb_lists(); ?>
         <?php endif; ?>
         
-            <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+            <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                 <h1 class="post-title"><?php the_title(); ?></h1>
  
                 <?php if ( comments_open() ) : ?>               
@@ -61,7 +61,7 @@ if ( !defined('ABSPATH')) exit;
                 <?php endif; ?>             
             
             <div class="post-edit"><?php edit_post_link(__('Edit', 'responsive')); ?></div> 
-            </div><!-- end of #post-<?php the_ID(); ?> -->
+            </article><!-- end of #post-<?php the_ID(); ?> -->
             
             <?php comments_template( '', true ); ?>
             
