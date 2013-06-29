@@ -23,7 +23,7 @@ if ( !defined('ABSPATH')) exit;
 </div><!-- end of #container -->
 <?php responsive_container_end(); // after container hook ?>
 
-<div id="footer" class="clearfix">
+<footer id="footer" class="clearfix">
 
     <div id="footer-wrapper">
     
@@ -32,7 +32,7 @@ if ( !defined('ABSPATH')) exit;
         <div class="grid col-540">
 		<?php if (has_nav_menu('footer-menu', 'responsive')) { ?>
 	        <?php wp_nav_menu(array(
-				    'container'       => '',
+				    'container'       => 'nav',
 					'fallback_cb'	  =>  false,
 					'menu_class'      => 'footer-menu',
 					'theme_location'  => 'footer-menu')
@@ -120,7 +120,7 @@ if ( !defined('ABSPATH')) exit;
         
     </div><!-- end #footer-wrapper -->
     
-</div><!-- end #footer -->
+</footer><!-- end #footer -->
 
 <?php wp_footer(); ?>
 <?php
