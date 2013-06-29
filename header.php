@@ -57,7 +57,7 @@ if ( defined( 'WPSEO_VERSION' ) ) {
 <div id="container" class="hfeed">
          
     <?php responsive_header(); // before header hook ?>
-    <div id="header">
+    <header id="header">
     
         <?php if (has_nav_menu('top-menu', 'responsive')) { ?>
 	        <?php wp_nav_menu(array(
@@ -95,7 +95,7 @@ if ( defined( 'WPSEO_VERSION' ) ) {
 			    
 				
  
-    </div><!-- end of #header -->
+    </header><!-- end of #header -->
     <?php responsive_header_end(); // after header hook ?>
     
     <div id="nav-wrapper">
