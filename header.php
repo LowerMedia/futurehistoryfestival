@@ -101,14 +101,14 @@ if ( defined( 'WPSEO_VERSION' ) ) {
     <div id="nav-wrapper">
         <div id="nav-inner-wrapper">
             <?php wp_nav_menu(array(
-                    'container'       => '',
+                    'container'       => 'nav',
                     'theme_location'  => 'header-menu')
                     ); 
             ?>
                     
             <?php if (has_nav_menu('sub-header-menu', 'responsive')) { ?>
                 <?php wp_nav_menu(array(
-                    'container'       => '',
+                    'container'       => 'nav',
                     'menu_class'      => 'sub-header-menu',
                     'theme_location'  => 'sub-header-menu')
                     ); 
